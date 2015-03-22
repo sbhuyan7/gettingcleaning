@@ -1,0 +1,466 @@
+---
+title: "Codebook for tidy_data.txt"
+output: html_document
+Variables definition
+---
+
+1] "Subject" = Id of Subjects 
+
+(Range: 1 - 30)
+
+2] "Activity" = Type of Activity completed by each subject 
+
+(Levels: "Walking", "Walking_Upstairs", "Walking_Downstairs", "Sitting", "Standing", "Laying")
+
+
+3] "tBodyAcc.mean...X" =  Mean body acceleration signal in X direction 
+
+(Normalized Range: -1 to 1)
+
+
+4] "tBodyAcc.mean...Y" = Mean body acceleration signal in Y direction             
+
+(Normalized Range: -1 to 1)
+
+
+5] "tBodyAcc.mean...Z" = Mean body acceleration signal in Z direction              
+
+(Normalized Range: -1 to 1)
+
+
+6] "tBodyAcc.std...X"  = Standard deviation body acceleration signal in X direction             
+
+(Normalized Range: -1 to 1)
+
+
+7] "tBodyAcc.std...Y" = Standard deviation body acceleration signal in Y direction             
+
+(Normalized Range: -1 to 1)
+
+
+8] "tBodyAcc.std...Z" = Standard deviation body acceleration signal in Z direction
+
+(Normalized Range: -1 to 1)
+
+
+9] "tGravityAcc.mean...X" = Mean gravity acceleration signal in X direction          
+
+(Normalized Range: -1 to 1)
+
+
+10] "tGravityAcc.mean...Y"= Mean gravity acceleration signal in Y direction          
+
+(Normalized Range: -1 to 1)
+
+
+11] "tGravityAcc.mean...Z" = Mean gravity acceleration signal in Z direction           
+
+(Normalized Range: -1 to 1)
+
+
+12] "tGravityAcc.std...X"  = Standard deviation of gravity acceleration signal in X direction          
+
+(Normalized Range: -1 to 1)
+
+
+13]"tGravityAcc.std...Y" = Standard deviation of gravity acceleration signal in Y direction           
+
+(Normalized Range: -1 to 1)
+
+
+14]"tGravityAcc.std...Z"  = Standard deviation of gravity acceleration signal in Z direction           
+
+(Normalized Range: -1 to 1)
+
+
+
+15]"tBodyAccJerk.mean...X" = Mean Jerk signals derived in time from linear body acceleration in X direction         
+
+(Normalized Range: -1 to 1)
+
+
+
+16]"tBodyAccJerk.mean...Y" = Mean Jerk signals derived in time from linear body acceleration in Y direction          
+
+(Normalized Range: -1 to 1)
+
+
+
+17]"tBodyAccJerk.mean...Z" = Mean Jerk signals derived in time from linear body acceleration in Z direction           
+
+(Normalized Range: -1 to 1)
+
+
+
+18]"tBodyAccJerk.std...X"  = Standard deviation of Jerk signals derived in time from linear body acceleration in X direction         
+
+(Normalized Range: -1 to 1)
+
+
+
+19]"tBodyAccJerk.std...Y"  = Standard deviation of Jerk signals derived in time from linear body acceleration in Y direction                   
+
+(Normalized Range: -1 to 1)
+
+
+
+20]"tBodyAccJerk.std...Z" = Standard deviation of Jerk signals derived in time from linear body acceleration in Z direction                    
+
+(Normalized Range: -1 to 1)
+
+
+
+21]"tBodyGyro.mean...X" = Mean body angular velocity in X direction          
+
+(Normalized Range: -1 to 1)
+
+
+22]"tBodyGyro.mean...Y" = Mean body angular velocity in Y direction             
+
+(Normalized Range: -1 to 1)
+
+
+
+23]"tBodyGyro.mean...Z" = Mean body angular velocity in Z direction            
+
+(Normalized Range: -1 to 1)
+
+
+
+24]"tBodyGyro.std...X" = Standard deviation of body angular velocity in X direction           
+
+(Normalized Range: -1 to 1)
+
+
+25]"tBodyGyro.std...Y" = Standard deviation of body angular velocity in Y direction              
+
+(Normalized Range: -1 to 1)
+
+
+26]"tBodyGyro.std...Z"  = Standard deviation of body angular velocity in Z direction             
+
+(Normalized Range: -1 to 1)
+
+
+
+27]"tBodyGyroJerk.mean...X" = Mean Jerk signals derived in time from angular body velocity in X direction     
+
+(Normalized Range: -1 to 1)
+
+
+28]"tBodyGyroJerk.mean...Y" = Mean Jerk signals derived in time from angular body velocity in Y direction         
+
+(Normalized Range: -1 to 1)
+
+
+
+29]"tBodyGyroJerk.mean...Z" = Mean Jerk signals derived in time from angular body velocity in Z direction        
+
+(Normalized Range: -1 to 1)
+
+
+30]"tBodyGyroJerk.std...X" = Standard deviation of Jerk signals derived in time from angular body velocity in X direction        
+
+(Normalized Range: -1 to 1)
+
+
+31]"tBodyGyroJerk.std...Y" = Standard deviation of Jerk signals derived in time from angular body velocity in Y direction          
+
+(Normalized Range: -1 to 1)
+
+
+32]"tBodyGyroJerk.std...Z" = Standard deviation of Jerk signals derived in time from angular body velocity in Z direction          
+
+(Normalized Range: -1 to 1)
+
+
+33]"tBodyAccMag.mean.." = Mean magnitude of linear body acceleration signal            
+
+(Normalized Range: -1 to 1)
+
+
+34]"tBodyAccMag.std.."= Standard deviation of magnitude of linear body acceleration signal             
+
+(Normalized Range: -1 to 1)
+
+
+
+35]"tGravityAccMag.mean.." = Mean magnitude of gravity acceleration signal          
+
+(Normalized Range: -1 to 1)
+
+
+36]"tGravityAccMag.std.."  = Standard deviation of magnitude of gravity acceleration signal         
+
+(Normalized Range: -1 to 1)
+
+
+37]"tBodyAccJerkMag.mean.." = Mean magnitude of Jerk signals derived in time from linear body acceleration         
+
+(Normalized Range: -1 to 1)
+
+
+38]"tBodyAccJerkMag.std.." = Standard deviation of magnitude of Jerk signals derived in time from linear body acceleration          
+
+(Normalized Range: -1 to 1)
+
+
+39]"tBodyGyroMag.mean.." = Mean magnitude of angular body velocity        
+
+(Normalized Range: -1 to 1)
+
+
+
+40]"tBodyGyroMag.std.."   = Standard deviation of magnitude of angular body velocity         
+
+(Normalized Range: -1 to 1)
+
+
+41]"tBodyGyroJerkMag.mean.."  = Mean magnitude of Jerk signals derived in time from angular body velocity         
+
+(Normalized Range: -1 to 1)
+
+
+
+42]"tBodyGyroJerkMag.std.." = Standard deviation of magnitude of Jerk signals derived in time from angular body velocity        
+
+(Normalized Range: -1 to 1)
+
+
+43]"fBodyAcc.mean...X"  = Mean frequency domain signals of body accleration in X direction         
+
+(Normalized Range: -1 to 1)
+
+
+44]"fBodyAcc.mean...Y" = Mean frequency domain signals of body accleration in Y direction              
+
+(Normalized Range: -1 to 1)
+
+
+45]"fBodyAcc.mean...Z" = Mean frequency domain signals of body accleration in Z direction             
+
+(Normalized Range: -1 to 1)
+
+
+46]"fBodyAcc.std...X" = Standard deviation of frequency domain signals of body accleration in X direction         
+
+(Normalized Range: -1 to 1)
+
+
+
+47]"fBodyAcc.std...Y" = Standard deviation of frequency domain signals of body accleration in Y direction               
+
+(Normalized Range: -1 to 1)
+
+
+
+48]"fBodyAcc.std...Z" = Standard deviation of frequency domain signals of body accleration in Z direction               
+
+(Normalized Range: -1 to 1)
+
+
+49]"fBodyAcc.meanFreq...X" = Mean frequency of domain signals of body acceleration in X direction (weighted average)        
+
+(Normalized Range: -1 to 1)
+
+
+
+50]"fBodyAcc.meanFreq...Y"= Mean frequency of domain signals of body acceleration in Y direction (weighted average)           
+
+(Normalized Range: -1 to 1)
+
+
+
+51]"fBodyAcc.meanFreq...Z" = Mean frequency of domain signals of body acceleration in Z direction (weighted average)          
+
+(Normalized Range: -1 to 1)
+
+
+
+
+52]"fBodyAccJerk.mean...X"  = Mean of Jerk signals of domain signals of body acceleration in X direction       
+
+(Normalized Range: -1 to 1)
+
+
+
+53]"fBodyAccJerk.mean...Y" Mean of Jerk signals of domain signals of body acceleration in Y direction          
+
+(Normalized Range: -1 to 1)
+
+
+54]"fBodyAccJerk.mean...Z" Mean of Jerk signals of domain signals of body acceleration in Z direction        
+
+
+
+55]"fBodyAccJerk.std...X" =  Standard deviation of Jerk signals of domain signals of body acceleration in X direction        
+
+(Normalized Range: -1 to 1)
+
+
+56]"fBodyAccJerk.std...Y" =  Standard deviation of Jerk signals of domain signals of body acceleration in Y direction           
+
+(Normalized Range: -1 to 1)
+
+
+
+57]"fBodyAccJerk.std...Z" =  Standard deviation of Jerk signals of domain signals of body acceleration in X direction         
+
+(Normalized Range: -1 to 1)
+
+
+58]"fBodyAccJerk.meanFreq...X"  = Mean frquency of Jerk signals of domain signals of body acceleration in X direction (weighted average)   
+
+(Normalized Range: -1 to 1)
+
+
+59]"fBodyAccJerk.meanFreq...Y" = Mean frquency of Jerk signals of domain signals of body acceleration in Y direction (weighted average)      
+
+(Normalized Range: -1 to 1)
+
+
+
+60]"fBodyAccJerk.meanFreq...Z" = Mean frquency of Jerk signals of domain signals of body acceleration in Z direction (weighted average)     
+
+(Normalized Range: -1 to 1)
+
+
+61]"fBodyGyro.mean...X" = Mean domain frequency of body angular velocity in X direction   
+
+(Normalized Range: -1 to 1)
+
+
+
+62]"fBodyGyro.mean...Y" = Mean domain frequency of body angular velocity in Y direction             
+
+(Normalized Range: -1 to 1)
+
+
+
+63]"fBodyGyro.mean...Z" = Mean domain frequency of body angular velocity in Z direction            
+
+(Normalized Range: -1 to 1)
+
+
+64]"fBodyGyro.std...X"  = Standard deviation of domain frequency of body angular velocity in X direction            
+
+(Normalized Range: -1 to 1)
+
+
+
+
+65]"fBodyGyro.std...Y" = Standard deviation of domain frequency of body angular velocity in Y direction              
+
+(Normalized Range: -1 to 1)
+
+
+66]"fBodyGyro.std...Z" = Standard deviation of domain frequency of body angular velocity in Z direction            
+
+(Normalized Range: -1 to 1)
+
+
+
+67]"fBodyGyro.meanFreq...X"  = Mean frequency of domain frequency of body angular velocity in X direction (weighted average)       
+
+(Normalized Range: -1 to 1)
+
+
+
+68]"fBodyGyro.meanFreq...Y" = Mean frequency of domain frequency of body angular velocity in Y direction (weighted average)        
+
+(Normalized Range: -1 to 1)
+
+
+
+
+69]"fBodyGyro.meanFreq...Z" = Mean frequency of domain frequency of body angular velocity in Z direction (weighted average)               
+
+(Normalized Range: -1 to 1)
+
+
+70]"fBodyAccMag.mean.." = Mean magnitude domain frequency of body acceleration in X direction         
+
+(Normalized Range: -1 to 1)
+
+
+
+
+71]"fBodyAccMag.std.."  = Standard deviation of magnitude domain frequency of body acceleration in X direction         
+
+(Normalized Range: -1 to 1)
+
+
+72]"fBodyAccMag.meanFreq.." = Magnitude of mean frequency of domain frequency of body acceleration in X direction        
+
+(Normalized Range: -1 to 1)
+
+
+
+73]"fBodyBodyAccJerkMag.mean.."  = Mean magnitude of Jerk signals mean frequency of domain frequency of body acceleration    
+
+(Normalized Range: -1 to 1)
+
+
+74]"fBodyBodyAccJerkMag.std.."  = Standard deviation magnitude of Jerk signals mean frequency of domain frequency of body acceleration         
+
+(Normalized Range: -1 to 1)
+
+
+
+75]"fBodyBodyAccJerkMag.meanFreq.." = Mean frequency of magnitude of Jerk signals of domain frequency of linear body acceleration (weighted average)
+
+(Normalized Range: -1 to 1)
+
+
+
+76]"fBodyBodyGyroMag.mean.."  = Mean magnitude of domain frequency of angular body velocity   
+
+(Normalized Range: -1 to 1)
+
+
+77]"fBodyBodyGyroMag.std.."   = Standard deviation of magnitude of domain frequency of angular body velocity   
+
+(Normalized Range: -1 to 1)
+
+
+
+78]"fBodyBodyGyroMag.meanFreq.." = Mean frequency of magnitude of domain frequency of  angular body velocity  
+
+(Normalized Range: -1 to 1)
+
+
+
+79"fBodyBodyGyroJerkMag.mean.." = Mean magnitude of Jerk signal derived in time from body angular velocity  
+
+(Normalized Range: -1 to 1)
+
+
+
+
+80"fBodyBodyGyroJerkMag.std.." = Standard deviation of magnitude of domain frequency of Jerk signal derived in time from angular body velocity       
+
+(Normalized Range: -1 to 1)
+
+
+
+
+81] "fBodyBodyGyroJerkMag.meanFreq.." = Mean frequency of magnitude of domain frequency of Jerk signal domain frequency of angular body velocity 
+
+(Normalized Range: -1 to 1)
+
+
+
+This tidy data follows the principles of the hadley Wickham's paper - Tidy Data - http://vita.had.co.nz/papers/tidy-data.pdf
+
+
+1. Each variable you measure should be in one column
+2. Each different observation of that variable should be in a different row
+3. There should be one table for each "kind" of variable
+4. If you have multiple tables, they should include a column in the table that allows them to be linked
+
+
+Also, tidy data also follows these principle
+
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each type of observational unit forms a table
